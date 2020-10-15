@@ -47,9 +47,9 @@ class Home extends StatelessWidget {
       floatingActionButton: new FloatingActionButton(
         onPressed: null,
         backgroundColor: Colors.lightGreen,
+        tooltip: 'Going up!',
         child: new Icon(Icons.call_missed),
       ),
-      tooltip: 'Going up!',
 
       bottomNavigationBar: new BottomNavigationBar(
         items: [
